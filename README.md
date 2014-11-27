@@ -112,6 +112,9 @@ Adds functions to the current buffer.
 
 # Changelog
 
+## `1.0.2`
+ - Fixed return values.
+
 ## `1.0.1`
  - Updated docs (example, fixes).
 
