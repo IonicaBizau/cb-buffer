@@ -110,5 +110,13 @@ Adds functions to the current buffer.
 4. Open a pull request, and reference the initial issue in the pull request
    message.
 
+# Changelog
+
+## `1.0.1`
+ - Updated docs (example, fixes).
+
+## `1.0.0`
+ - Initial release.
+
 # License
 See the [LICENSE](./LICENSE) file.
