@@ -1,6 +1,4 @@
-# callback-buffering
 ![cb-buffer - A minimalist NodeJS module for callback buffering.](http://i.imgur.com/UjN9LfL.png)
-
 
 # Installation
 Run the following commands to download and install the application:
@@ -62,8 +60,6 @@ Adds functions to the current buffer.
 
 ### Return
 - **Object** The `CbBuffer` instance.
-
-
 
 # How to contribute
 
