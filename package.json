@@ -1,0 +1,18 @@
+{
+  "name": "callback-buffering",
+  "version": "1.0.0",
+  "description": "Minimalist NodeJS module for callback buffering.",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "keywords": [
+    "callback",
+    "buffering"
+  ],
+  "author": "jillix <contact@jillix.com>",
+  "license": "MIT"
+}
