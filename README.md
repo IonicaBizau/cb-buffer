@@ -9,7 +9,7 @@ $ npm install cb-buffer
 
 ```js
 // Dependencies
-var CallbackBuffering = require("../lib");
+var CallbackBuffering = require("cb-buffer");
 
 // Create a new callback buffer
 var cb = new CallbackBuffering();
