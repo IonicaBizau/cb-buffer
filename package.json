@@ -1,7 +1,7 @@
 {
-  "name": "callback-buffering",
+  "name": "cb-buffer",
   "version": "1.0.0",
-  "description": "Minimalist NodeJS module for callback buffering.",
+  "description": "A minimalist NodeJS module for callback buffering.",
   "main": "lib/index.js",
   "directories": {
     "test": "test"
@@ -14,5 +14,13 @@
     "buffering"
   ],
   "author": "jillix <contact@jillix.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jillix/node-cb-buffer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jillix/node-cb-buffer/issues"
+  },
+  "homepage": "https://github.com/jillix/node-cb-buffer"
 }
