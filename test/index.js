@@ -4,7 +4,7 @@ var CallbackBuffering = require("../lib");
 // Create a new callback buffer
 var cb = new CallbackBuffering();
 
-/**
+/*!
  * getUniqueRandom
  * Callbacks a random number that is unique after doing something async.
  *
