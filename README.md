@@ -63,9 +63,6 @@ The instance will contain methods documented below and the following fields:
 #### Return
 - **CbBuffer** The `CbBuffer` instance.
 
-### `wait()`
-Sets the `waiting` flag to `true`.
-
 ### `check(fn)`
 Use this function to append the new function and `return` if needed:
 
