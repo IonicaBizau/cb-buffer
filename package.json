@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/jillix/node-cb-buffer/issues"
   },
-  "homepage": "https://github.com/jillix/node-cb-buffer"
+  "homepage": "https://github.com/jillix/node-cb-buffer",
+  "blah": {
+    "h_img": "http://i.imgur.com/UjN9LfL.png"
+  }
 }
