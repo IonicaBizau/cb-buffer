@@ -1,37 +1,34 @@
 // Dependencies
-var CallbackBuffering = require("../lib");
+const CallbackBuffering = require("../lib");
 
 // Create a new callback buffer
 var cb = new CallbackBuffering();
 
-/*!
- * getUniqueRandom
- * Callbacks a random number that is unique after doing something async.
- *
- * @name getUniqueRandom
- * @function
- * @param {Number} i The current index.
- * @param {Function} callback The callback function.
- * @return {undefined}
- */
-function getUniqueRandom(i, callback) {
-    console.log("> Unique random requested " + i + " times.");
-    if (cb.isDone) { return cb.done(callback); }
-    cb.add(callback);
-    if (cb.isWaiting) { return; }
-    cb.wait();
-    console.log("* Generating unique random");
-    var r = Math.random();
-    setTimeout(function() {
-        cb.callback(r);
-    }, 10);
+// Callbacks a random unique number after 1 sec
+function getUniqueRandomNumberAsync(callback) {
+    if (cb.check(callback)) { return; }
+    setTimeout(() => {
+        debugger
+        cb.done(Math.random());
+    }, 1000);
 }
 
-// Request unique random multiple times
-for (var i = 1; i < 11; ++i) {
-    (function (i) {
-        getUniqueRandom(i, function (c) {
-            console.log("> Unique random is " + c);
-        });
-    })(i);
-}
+// Request the unique number few times.
+// It should be unique, and generated once
+getUniqueRandomNumberAsync(console.log);
+getUniqueRandomNumberAsync(console.log);
+getUniqueRandomNumberAsync(console.log);
+getUniqueRandomNumberAsync(console.log);
+// ... after one second
+// => 0.3639475910458714
+// => 0.3639475910458714
+// => 0.3639475910458714
+// => 0.3639475910458714
+
+// After one second (after the random number is found)
+// we request it again
+setTimeout(() => {
+    getUniqueRandomNumberAsync(console.log);
+    // => 0.3639475910458714
+}, 1000);
+
