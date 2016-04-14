@@ -109,7 +109,7 @@ If you are using this library in one of your projects, add it in this list. :spa
     
 [MIT][license] © [jillix][website]
     
-[license]: http://showalicense.com/?fullname=jillix%20%3Ccontact%40jillix.com%3E&year=2014#license-mit
-[website]: 
+[license]: http://showalicense.com/?fullname=jillix%20%3Ccontact%40jillix.com%3E%20(http%3A%2F%2Fjillix.com)&year=2014#license-mit
+[website]: http://jillix.com
 [contributing]: /CONTRIBUTING.md
 [docs]: /DOCUMENTATION.md
