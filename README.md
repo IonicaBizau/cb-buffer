@@ -1,16 +1,19 @@
 [![cb-buffer](http://i.imgur.com/UjN9LfL.png)](#)
 
-# cb-buffer
+# cb-buffer [![Version](https://img.shields.io/npm/v/cb-buffer.svg)](https://www.npmjs.com/package/cb-buffer) [![Downloads](https://img.shields.io/npm/dt/cb-buffer.svg)](https://www.npmjs.com/package/cb-buffer)
 
-A minimalist NodeJS module for callback buffering.
+> A minimalist NodeJS module for callback buffering.
 
-## Installation
-
+## :cloud: Installation
+    
 ```sh
-$ npm i cb-buffer
+$ npm i --save cb-buffer
 ```
 
-## Example
+            
+## :clipboard: Example
+
+        
 
 ```js
 // Dependencies
@@ -47,9 +50,9 @@ setTimeout(() => {
     // => 0.3639475910458714
 }, 1000);
 ```
-
-## Documentation
-
+    
+## :memo: Documentation
+        
 ### `CbBuffer()`
 Creates a new instance of `CbBuffer`.
 
@@ -82,20 +85,31 @@ Calls the provided function with the callback arguments.
 #### Params
 - **Function** `fn`: The function to call.
 
+### `clear()`
+CLears the callback array.
+
+### `undone()`
+Resets the internal data.
+
 ### `done()`
 Calls all the functions from the buffer.
 
-## How to contribute
+        
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`bible.js`](https://github.com/BibleJS/bible.js)
+ - [`bible.js`](https://github.com/BibleJS/bible.js)—The Bible as a NPM module.
+ - [`cb-bufferify`](https://github.com/IonicaBizau/cb-bufferify#readme)—Convert any async function to a cb-buffer handler.
+ - [`image-parser`](https://github.com/IonicaBizau/image-parser#readme)—An image parser that works.
 
-## License
-
-See the [LICENSE](/LICENSE) file.
-
+## :scroll: License
+    
+[MIT][license] © [jillix][website]
+    
+[license]: http://showalicense.com/?fullname=jillix%20%3Ccontact%40jillix.com%3E&year=2014#license-mit
+[website]: 
 [contributing]: /CONTRIBUTING.md
 [docs]: /DOCUMENTATION.md
