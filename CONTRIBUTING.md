@@ -61,6 +61,6 @@ Thanks! :sweat_smile:
 
 
 
-[1]: https://github.com/jillix/node-cb-buffer/issues
+[1]: https://github.com/IonicaBizau/cb-buffer/issues
 
 [2]: https://github.com/IonicaBizau/code-style
