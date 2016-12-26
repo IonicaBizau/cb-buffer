@@ -20,12 +20,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/jillix/node-cb-buffer.git"
+    "url": "git+ssh://git@github.com/IonicaBizau/cb-buffer.git"
   },
   "bugs": {
-    "url": "https://github.com/jillix/node-cb-buffer/issues"
+    "url": "https://github.com/IonicaBizau/cb-buffer/issues"
   },
-  "homepage": "https://github.com/jillix/node-cb-buffer",
+  "homepage": "https://github.com/IonicaBizau/cb-buffer",
   "blah": {
     "h_img": "http://i.imgur.com/UjN9LfL.png"
   }
