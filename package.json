@@ -13,7 +13,7 @@
     "callback",
     "buffering"
   ],
-  "author": "jillix <contact@jillix.com> (http://jillix.com)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "contributors": [
     "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)"
   ],
@@ -28,5 +28,16 @@
   "homepage": "https://github.com/IonicaBizau/cb-buffer",
   "blah": {
     "h_img": "http://i.imgur.com/UjN9LfL.png"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
