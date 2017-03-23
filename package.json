@@ -1,6 +1,6 @@
 {
   "name": "cb-buffer",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "A minimalist NodeJS module for callback buffering.",
   "main": "lib/index.js",
   "directories": {
