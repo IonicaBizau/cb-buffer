@@ -23,6 +23,7 @@ if (cb.check(callback)) { return; }
 ```
 
 #### Params
+
 - **Function** `fn`: The callback function.
 
 #### Return
@@ -32,6 +33,7 @@ if (cb.check(callback)) { return; }
 Calls the provided function with the callback arguments.
 
 #### Params
+
 - **Function** `fn`: The function to call.
 
 ### `clear()`
