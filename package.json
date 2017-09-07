@@ -1,6 +1,6 @@
 {
   "name": "cb-buffer",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "description": "A minimalist NodeJS module for callback buffering.",
   "main": "lib/index.js",
   "directories": {
@@ -39,6 +39,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
