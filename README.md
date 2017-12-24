@@ -12,7 +12,11 @@
 ## :cloud: Installation
 
 ```sh
-$ npm i --save cb-buffer
+# Using npm
+npm install --save cb-buffer
+
+# Using yarn
+yarn add cb-buffer
 ```
 
 
